@@ -1,8 +1,8 @@
 pragma solidity ^0.6.0;
 
-import "@openzeppelin/contracts/math/Math.sol";
-import "@openzeppelin/contracts/math/SafeMath.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "OpenZeppelin/openzeppelin-contracts@3.0.0/contracts/math/Math.sol";
+import "OpenZeppelin/openzeppelin-contracts@3.0.0/contracts/math/SafeMath.sol";
+import "OpenZeppelin/openzeppelin-contracts@3.0.0/contracts/token/ERC20/IERC20.sol";
 
 
 abstract contract ERC20WithoutTotalSupply is IERC20 {
